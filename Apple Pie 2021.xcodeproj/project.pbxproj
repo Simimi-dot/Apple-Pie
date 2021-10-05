@@ -14,6 +14,9 @@
 		061270BF270B0EA4004F6D5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 061270BE270B0EA4004F6D5C /* Assets.xcassets */; };
 		061270C2270B0EA4004F6D5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 061270C0270B0EA4004F6D5C /* LaunchScreen.storyboard */; };
 		06C157E3270C71FE005731BA /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C157E2270C71FE005731BA /* Game.swift */; };
+		06C157E8270CADB4005731BA /* ScreenShot01.png in Resources */ = {isa = PBXBuildFile; fileRef = 06C157E5270CADB3005731BA /* ScreenShot01.png */; };
+		06C157E9270CADB4005731BA /* ScreenShot02.png in Resources */ = {isa = PBXBuildFile; fileRef = 06C157E6270CADB4005731BA /* ScreenShot02.png */; };
+		06C157EA270CADB4005731BA /* ScreenShot03.png in Resources */ = {isa = PBXBuildFile; fileRef = 06C157E7270CADB4005731BA /* ScreenShot03.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		061270C1270B0EA4004F6D5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		061270C3270B0EA4004F6D5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		06C157E2270C71FE005731BA /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		06C157E5270CADB3005731BA /* ScreenShot01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ScreenShot01.png; sourceTree = "<group>"; };
+		06C157E6270CADB4005731BA /* ScreenShot02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ScreenShot02.png; sourceTree = "<group>"; };
+		06C157E7270CADB4005731BA /* ScreenShot03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ScreenShot03.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,7 @@
 		061270B4270B0EA1004F6D5C /* Apple Pie 2021 */ = {
 			isa = PBXGroup;
 			children = (
+				06C157E4270CAD9F005731BA /* Screenshots */,
 				061270B5270B0EA1004F6D5C /* AppDelegate.swift */,
 				061270BE270B0EA4004F6D5C /* Assets.xcassets */,
 				06C157E2270C71FE005731BA /* Game.swift */,
@@ -68,6 +75,16 @@
 				061270B9270B0EA1004F6D5C /* ViewController.swift */,
 			);
 			path = "Apple Pie 2021";
+			sourceTree = "<group>";
+		};
+		06C157E4270CAD9F005731BA /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				06C157E5270CADB3005731BA /* ScreenShot01.png */,
+				06C157E6270CADB4005731BA /* ScreenShot02.png */,
+				06C157E7270CADB4005731BA /* ScreenShot03.png */,
+			);
+			path = Screenshots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,8 +145,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06C157E9270CADB4005731BA /* ScreenShot02.png in Resources */,
 				061270C2270B0EA4004F6D5C /* LaunchScreen.storyboard in Resources */,
+				06C157EA270CADB4005731BA /* ScreenShot03.png in Resources */,
 				061270BF270B0EA4004F6D5C /* Assets.xcassets in Resources */,
+				06C157E8270CADB4005731BA /* ScreenShot01.png in Resources */,
 				061270BD270B0EA1004F6D5C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

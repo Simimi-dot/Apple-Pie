@@ -101,7 +101,7 @@ class ViewController: UIViewController {
         "Шэньян",
         "Эр-Рияд",
         "Янгон",
-    ]
+    ].shuffled()
     
     var totalWins = 0 {
         didSet {
