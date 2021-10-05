@@ -400,7 +400,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="coorectWordLabel" destination="Zc6-oF-WW2" id="wKZ-3D-Z4Z"/>
+                        <outlet property="correctWordLabel" destination="Zc6-oF-WW2" id="wKZ-3D-Z4Z"/>
                         <outlet property="scoreLabel" destination="Mpv-nr-pWx" id="AJ4-6I-Tpy"/>
                         <outlet property="treeImageView" destination="XEM-2h-LmM" id="0Ji-wJ-exu"/>
                         <outletCollection property="letterButtons" destination="pcS-Pt-PCm" collectionClass="NSMutableArray" id="11L-aU-YNf"/>
